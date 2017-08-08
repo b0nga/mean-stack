@@ -1,0 +1,9 @@
+npm init -y
+
+echo $null >> index.js
+
+npm install express --save
+
+echo "node_modules" >> .gitignore
+
+npm install -g nodemon
